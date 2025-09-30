@@ -88,18 +88,10 @@ export default function Home() {
               className="mx-auto mb-12 rounded-3xl shadow-2xl"
             />
           </motion.div>
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-7xl md:text-9xl font-bold mb-6 text-[#1A1A1A] tracking-tight"
-          >
-            Bueno
-          </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7, duration: 0.8 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
             className="text-2xl md:text-4xl mb-4 font-light text-gray-800"
           >
             A Coffee Experience Company
