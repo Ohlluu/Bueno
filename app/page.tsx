@@ -179,18 +179,18 @@ export default function Home() {
             </motion.div>
             <motion.div variants={fadeInUp} className="space-y-6">
               <p className="text-xl text-gray-700 leading-relaxed">
-                At Bueno, we don't just serve coffee—we craft experiences. Every cup is an
+                At Bueno, we don&apos;t just serve coffee—we craft experiences. Every cup is an
                 invitation to slow down, to savor, to connect with something deeper than
                 your daily routine.
               </p>
               <p className="text-xl text-gray-700 leading-relaxed">
                 We believe coffee is an art form, a ritual, a moment of intention in an
-                otherwise chaotic world. It's not about rushing through your morning—it's
+                otherwise chaotic world. It&apos;s not about rushing through your morning—it&apos;s
                 about creating a memory worth holding onto.
               </p>
               <p className="text-xl text-gray-700 leading-relaxed">
-                From sourcing to brewing, from the first sip to the last, we're obsessed
-                with making every detail exceptional. Because you don't just deserve good coffee.
+                From sourcing to brewing, from the first sip to the last, we&apos;re obsessed
+                with making every detail exceptional. Because you don&apos;t just deserve good coffee.
                 You deserve <span className="font-bold italic">Bueno</span>.
               </p>
             </motion.div>
@@ -227,7 +227,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-4">Intentional Craft</h3>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Every bean is selected with purpose. Every brew is timed to perfection.
-                We don't cut corners—we create moments.
+                We don&apos;t cut corners—we create moments.
               </p>
             </motion.div>
             <motion.div
@@ -248,7 +248,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold mb-4">Memorable Moments</h3>
               <p className="text-lg text-gray-300 leading-relaxed">
-                We're not just making coffee—we're creating memories. Every visit is a chance
+                We&apos;re not just making coffee—we&apos;re creating memories. Every visit is a chance
                 to experience something extraordinary.
               </p>
             </motion.div>
@@ -360,7 +360,7 @@ export default function Home() {
                 <p className="text-2xl font-bold mb-4">Your next experience awaits.</p>
                 <p className="text-lg">
                   Step into Bueno and discover what coffee can truly be. More than a drink,
-                  more than a destination—it's an experience you'll want to return to again
+                  more than a destination—it&apos;s an experience you&apos;ll want to return to again
                   and again.
                 </p>
               </div>
