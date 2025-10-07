@@ -102,13 +102,13 @@ export default function Home() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mb-8"
           >
-            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight bg-gradient-to-r from-[#F4D03F] via-[#FFD700] to-[#FFA500] bg-clip-text text-transparent animate-gradient">
+            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow">
               RAW.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent">
+            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '1s' }}>
               UNFILTERED.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black tracking-tight bg-gradient-to-r from-[#FFA500] via-[#FFD700] to-[#F4D03F] bg-clip-text text-transparent animate-gradient">
+            <h1 className="text-7xl md:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '2s' }}>
               REAL.
             </h1>
           </motion.div>
