@@ -209,7 +209,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-xl font-bold text-white">Big Kat</h4>
                     <p className="text-lg">Cameraman & Co-host</p>
-                    <p className="text-sm mt-1">The voice behind "New Music Monday"</p>
+                    <p className="text-sm mt-1">The voice behind &quot;New Music Monday&quot;</p>
                   </div>
                   <div className="border-t border-gray-700 pt-4">
                     <h4 className="text-xl font-bold text-white">Tristan</h4>
@@ -294,7 +294,7 @@ export default function Home() {
           />
           <motion.div variants={fadeInUp} className="bg-black/50 backdrop-blur-sm p-8 rounded-2xl border-2 border-[#F4D03F] text-center">
             <h3 className="text-3xl font-bold mb-4 text-[#F4D03F]">Episode 90</h3>
-            <p className="text-2xl text-white mb-6">"Sinners in Wonderland"</p>
+            <p className="text-2xl text-white mb-6">&quot;Sinners in Wonderland&quot;</p>
             <p className="text-lg text-gray-300 mb-8">
               The latest raw and unfiltered conversation covering the hottest topics in culture, politics, and entertainment.
             </p>
@@ -464,7 +464,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-white">🎬 Short Films & Special Projects</p>
-                    <p>Like "HEAD&apos;S OR TAIL&apos;S" and other creative content</p>
+                    <p>Like &quot;HEAD&apos;S OR TAIL&apos;S&quot; and other creative content</p>
                   </div>
                 </div>
               </div>
