@@ -40,19 +40,19 @@ export default function Home() {
           scrolled ? 'bg-black/95 backdrop-blur-md shadow-md' : 'bg-transparent'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="flex items-center gap-3"
+            className="flex items-center gap-2 md:gap-3"
           >
             <Image
               src="/grits-eggs-logo.webp"
               alt="Grits and Eggs"
-              width={50}
-              height={50}
-              className="rounded-full"
+              width={35}
+              height={35}
+              className="rounded-full md:w-[50px] md:h-[50px]"
             />
-            <span className="text-2xl font-bold tracking-tight text-[#F4D03F]">
+            <span className="text-base md:text-2xl font-bold tracking-tight text-[#F4D03F]">
               GRITS & EGGS
             </span>
           </motion.div>
@@ -68,9 +68,10 @@ export default function Home() {
             href="https://www.patreon.com/TheGritsAndEggsPodcast?utm_campaign=creatorshare_creator"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#F4D03F] text-black px-6 py-2 rounded-full font-bold hover:bg-[#E8C639] transition-colors"
+            className="bg-[#F4D03F] text-black px-3 py-1.5 md:px-6 md:py-2 rounded-full font-bold hover:bg-[#E8C639] transition-colors text-xs md:text-base"
           >
-            Support on Patreon
+            <span className="hidden sm:inline">Support on Patreon</span>
+            <span className="sm:hidden">Patreon</span>
           </motion.a>
         </div>
       </motion.nav>
@@ -94,21 +95,21 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative z-10 text-center px-6 max-w-5xl"
+          className="relative z-10 text-center px-4 md:px-6 max-w-5xl"
         >
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="mb-8"
+            className="mb-6 md:mb-8"
           >
-            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow">
               RAW.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '3s' }}>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '3s' }}>
               UNFILTERED.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '6s' }}>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '6s' }}>
               REAL.
             </h1>
           </motion.div>
@@ -117,7 +118,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-2xl md:text-4xl mb-6 font-light text-white"
+            className="text-lg sm:text-xl md:text-2xl lg:text-4xl mb-4 md:mb-6 font-light text-white px-2"
           >
             The raw and unfiltered takes on pop culture, politics, and all things entertainment
           </motion.p>
@@ -126,7 +127,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="text-xl md:text-2xl text-gray-300 mb-12"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 md:mb-12"
           >
             Hosted by <span className="text-[#F4D03F] font-bold">Deante&apos; Kyle</span> | BIA Awards 2025 Nominee
           </motion.p>
@@ -135,13 +136,13 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="flex gap-4 justify-center flex-wrap"
+            className="flex gap-3 md:gap-4 justify-center flex-wrap px-2"
           >
             <motion.a
               whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(244, 208, 63, 0.4)" }}
               whileTap={{ scale: 0.95 }}
               href="#episodes"
-              className="bg-[#F4D03F] text-black px-8 py-4 rounded-full text-lg font-bold hover:bg-[#E8C639] transition-all"
+              className="bg-[#F4D03F] text-black px-5 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-lg font-bold hover:bg-[#E8C639] transition-all"
             >
               Watch Latest Episode
             </motion.a>
@@ -149,7 +150,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="#listen"
-              className="border-2 border-[#F4D03F] text-[#F4D03F] px-8 py-4 rounded-full text-lg font-bold hover:bg-[#F4D03F] hover:text-black transition-all"
+              className="border-2 border-[#F4D03F] text-[#F4D03F] px-5 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-lg font-bold hover:bg-[#F4D03F] hover:text-black transition-all"
             >
               Listen Now
             </motion.a>
@@ -335,26 +336,26 @@ export default function Home() {
         id="listen"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={staggerContainer}
-        className="py-20 px-6 bg-black"
+        className="py-12 md:py-20 px-4 md:px-6 bg-black"
       >
         <div className="max-w-6xl mx-auto">
           <motion.h2
             variants={fadeInUp}
-            className="text-5xl md:text-6xl font-bold text-center mb-6 text-[#F4D03F]"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 md:mb-6 text-[#F4D03F]"
           >
             Listen & Connect
           </motion.h2>
           <motion.div
             variants={fadeInUp}
-            className="w-24 h-1 bg-[#F4D03F] mx-auto mb-16"
+            className="w-24 h-1 bg-[#F4D03F] mx-auto mb-8 md:mb-16"
           />
 
-          <div className="grid md:grid-cols-2 gap-12">
-            <motion.div variants={fadeInUp} className="space-y-6">
-              <div className="bg-zinc-900 p-8 rounded-2xl border-2 border-[#F4D03F]/20">
-                <h3 className="text-2xl font-bold mb-6 text-[#F4D03F]">Streaming Platforms</h3>
+          <div className="grid md:grid-cols-2 gap-6 md:gap-12">
+            <motion.div variants={fadeInUp} className="space-y-4 md:space-y-6">
+              <div className="bg-zinc-900 p-4 md:p-8 rounded-2xl border-2 border-[#F4D03F]/20">
+                <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-[#F4D03F]">Streaming Platforms</h3>
                 <div className="space-y-4">
                   <a href="https://www.youtube.com/@GritsAndEggsPod" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-white hover:text-[#F4D03F] transition-colors">
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -389,8 +390,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-zinc-900 p-8 rounded-2xl border-2 border-[#F4D03F]/20">
-                <h3 className="text-2xl font-bold mb-6 text-[#F4D03F]">Social Media</h3>
+              <div className="bg-zinc-900 p-4 md:p-8 rounded-2xl border-2 border-[#F4D03F]/20">
+                <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-[#F4D03F]">Social Media</h3>
                 <div className="space-y-4">
                   <a href="https://www.instagram.com/Deante.Kyle" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-white hover:text-[#F4D03F] transition-colors">
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -407,9 +408,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-[#F4D03F] text-black p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold mb-4">Support the Show</h3>
-                <p className="text-lg mb-4">
+              <div className="bg-[#F4D03F] text-black p-4 md:p-8 rounded-2xl">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Support the Show</h3>
+                <p className="text-base md:text-lg mb-3 md:mb-4">
                   Join the Patreon community for exclusive behind-the-scenes content, early access, and more!
                 </p>
                 <a href="https://www.patreon.com/TheGritsAndEggsPodcast?utm_campaign=creatorshare_creator" target="_blank" rel="noopener noreferrer" className="inline-block bg-black text-[#F4D03F] px-6 py-3 rounded-full font-bold hover:bg-gray-900 transition-colors">
@@ -417,8 +418,8 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="bg-zinc-900 p-8 rounded-2xl border-2 border-[#F4D03F]/20">
-                <h3 className="text-2xl font-bold mb-4 text-[#F4D03F]">Get in Touch</h3>
+              <div className="bg-zinc-900 p-4 md:p-8 rounded-2xl border-2 border-[#F4D03F]/20">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-[#F4D03F]">Get in Touch</h3>
                 <p className="text-lg text-gray-300 mb-4">
                   For inquiries, collaborations, or just to say what&apos;s up:
                 </p>
@@ -428,9 +429,9 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <motion.div variants={fadeInUp} className="space-y-6">
-              <div className="bg-zinc-900 p-8 rounded-2xl border-2 border-[#F4D03F]">
-                <h3 className="text-2xl font-bold mb-4 text-[#F4D03F]">What Makes Us Different</h3>
+            <motion.div variants={fadeInUp} className="space-y-4 md:space-y-6">
+              <div className="bg-zinc-900 p-4 md:p-8 rounded-2xl border-2 border-[#F4D03F]">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-[#F4D03F]">What Makes Us Different</h3>
                 <div className="space-y-6 text-gray-300">
                   <div>
                     <h4 className="text-xl font-bold text-white mb-2">🎯 No Filter Policy</h4>
