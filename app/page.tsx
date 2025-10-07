@@ -105,10 +105,10 @@ export default function Home() {
             <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow">
               RAW.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '1s' }}>
+            <h1 className="text-7xl md:text-9xl font-black mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '3s' }}>
               UNFILTERED.
             </h1>
-            <h1 className="text-7xl md:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '2s' }}>
+            <h1 className="text-7xl md:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '6s' }}>
               REAL.
             </h1>
           </motion.div>
