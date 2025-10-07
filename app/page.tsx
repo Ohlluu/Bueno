@@ -77,7 +77,7 @@ export default function Home() {
       </motion.nav>
 
       {/* Hero Section with Background Image */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pb-12 md:pb-0">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -103,13 +103,13 @@ export default function Home() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mb-6 md:mb-8"
           >
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow">
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow">
               RAW.
             </h1>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '3s' }}>
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 md:mb-4 tracking-tight animate-gradient-flow" style={{ animationDelay: '3s' }}>
               UNFILTERED.
             </h1>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '6s' }}>
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tight animate-gradient-flow" style={{ animationDelay: '6s' }}>
               REAL.
             </h1>
           </motion.div>
@@ -175,7 +175,7 @@ export default function Home() {
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         variants={staggerContainer}
-        className="py-20 px-6 bg-zinc-900"
+        className="py-12 md:py-20 px-4 md:px-6 bg-zinc-900"
       >
         <div className="max-w-6xl mx-auto">
           <motion.h2
